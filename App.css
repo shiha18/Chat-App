@@ -1,0 +1,45 @@
+#root {
+    width: 100%;
+}
+
+.App {
+    text-align: center;
+}
+
+body {
+    .chat-message {
+        background-color:#056a6e; ;
+        padding: 1em;
+        max-height: 450px;
+        overflow-y:scroll;
+        border-radius: 25px;
+        color: gray;
+        align-items: flex-end;
+    }
+
+    .message-right {
+        background: #056a6e;
+        border-radius: 25px;
+        padding: 0.5em 1em !important;
+        margin: 1em;
+    }
+
+    .message-left {
+        background: plum;
+        border-radius: 25px;
+        padding: 0.5em 1em !important;
+        margin: 1em;
+    }
+
+    .message-text {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .logo-icon {
+        height: 50px;
+        width: 50px;
+        border-radius: 200px;
+
+    }
+}
